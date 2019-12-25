@@ -10,6 +10,6 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "vendor/package": "1.0.0"
+        "nadimsheikh07/hello-composer": "1.0.0"
     }
 }
