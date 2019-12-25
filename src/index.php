@@ -1,0 +1,11 @@
+<?php
+
+namespace nadimsheikh07\HelloWorld;
+
+class Index
+{
+    public function greet($greet = "Hello World")
+    {
+        return $greet;
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "nadimsheikh07/hello-composer",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "nadimsheikh",
+            "email": "nadim.sheikh.07@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "vendor/package": "1.0.0"
+    }
+}
