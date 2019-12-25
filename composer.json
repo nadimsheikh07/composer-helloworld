@@ -1,5 +1,11 @@
 {
     "name": "nadimsheikh07/hello-composer",
+    "keywords": [
+        "php",
+        "first composer",
+        "hello composer",
+        "library"
+    ],
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -9,7 +15,10 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {
-        "nadimsheikh07/hello-composer": "1.1.0"
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "nadimsheikh07\\HelloWorld\\": "src/"
+        }
     }
 }
